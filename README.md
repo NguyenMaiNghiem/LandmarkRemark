@@ -5,6 +5,13 @@ This is an application that allows you to add Notes on Google Maps based on your
   The application uses the Google Maps API to display the map. 
   The application uses Firebase for registration, login, and data storage.
 
+## Time
+- I spent about 24 hours on this project :
+    + about 18 hours thinking about the solution and coding
+    + about 6 hours testing and fixing bugs and setting up the environment or writing related files
+
+- There was an issue while implementing the search method: I tried to use a 3rd party called Algolia to optimize the search ability of the project, but since it was new to me, it took a lot of time to learn and set it up so I didn't use it anymore
+
 ## System Requirements
 
   Android Studio Koala | 2024.1.1
@@ -24,6 +31,7 @@ This is an application that allows you to add Notes on Google Maps based on your
     + If you have added a Note for the current location, the Note information will be displayed.
 - Clicking on the information box displayed at the location will show a ModalBottomSheetDialog including:
     + Location information.
+
     + An X button to close the current dialog.
     + A +AddNote button to add the Note information you want.
     + A list of Notes that you and other users have added to that location.
